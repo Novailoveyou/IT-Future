@@ -1,0 +1,182 @@
+html{
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+/* ULITILY CLASSES */
+
+.main-bg {
+  background-color: #3cb500;
+}
+
+.main-color {
+  color: #3cb500;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.height-80 {
+  height: 80%;
+}
+
+.mt-1 {
+  margin-top: 0.1em;
+}
+
+.mt-4 {
+  margin-top: 0.4em;
+}
+
+.mt-10 {
+  margin-top: 1em;
+}
+
+.mt-15 {
+  margin-top: 1.5em;
+}
+
+.mt-85{
+  margin-top: 8.5em;
+}
+
+.mb-10 {
+  margin-bottom: 1em;
+}
+
+/* LANDING */
+
+header {
+  background-color: #858585;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    background-image: url(img/bg-mobile.jpg);
+  }
+}
+
+/* Responsive text */
+
+@media only screen and (max-width: 600px) {
+  .responsive-text-10 {
+    font-size: 8vw;
+  }
+
+  .responsive-text-7 {
+    font-size: 5vw;
+  }
+}
+
+/* Remove boxshadow from nav */
+nav {
+  box-shadow: none;
+}
+
+/* Icon at the bottom of the LANDING */
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+/* Line above each title */
+
+.line {
+  display: block;
+  height: 0.1em;
+  width: 50%;
+  border: 0;
+  border-top: 1px solid #3cb500;
+  margin: 0;
+  padding: 0;
+}
+
+.line-s {
+  width: 10%;
+}
+
+.line-center{
+  margin: 0 auto;
+}
+
+/* SERVICES */
+
+.circle-icon {
+  border: 1px solid #3cb500;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding: 0.2em;
+}
+
+/* YOU NEED */
+#youNeed {
+  background-color: #858585;
+  background-image: url(img/bg-wish.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rgba-black {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.btn-border {
+  border: 1px solid #3cb500;
+  background: transparent;
+}
+
+.btn-border:hover,
+.btn-border:focus {
+  background-color: #3cb500;
+  color: #fff !important;
+}
+
+/* WHAT OUR CLIENTS SAY */
+#feedback {
+  background-color: #858585;
+  background-image: url(img/bg-feedback.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fix-height {
+  min-height: 40em;
+}
+
+.fix-white-space {
+  margin-top: -12em;
+}
+
+.carousel-item img.portrait {
+  width: 98px;
+}
+
+/* OUR WORK */
+/* fix each image goes to new stings */
+.material-placeholder {
+  display: inline-block;
+}

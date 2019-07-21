@@ -1,0 +1,21 @@
+{
+  "short_name": "ITF",
+  "name": "IT-Future",
+  "icons": [
+    {
+      "src": "/img/TRIO-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/TRIO-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#858585",
+  "display": "standalone",
+  "scope": ".",
+  "theme_color": "#3cb500"
+}
